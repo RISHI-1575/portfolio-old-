@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishi Shashikanth — AI/ML Engineer</title>
+  <meta name="description" content="Portfolio of Rishi Shashikanth — AI/ML Engineer, Full-Stack Developer & Director @ AccoFAI LLP. Final-year AIML student at BNM Institute of Technology, Bengaluru." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <div class="nav-logo-box">
+      <div class="nav-logo-dot"></div>
+    </div>
+    <span class="nav-logo-text glow-sm">R.S</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#home"       class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div style="display:flex;align-items:center;gap:10px;">
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme">
+      <span class="theme-toggle-icon" id="theme-icon">☀️</span>
+      <span id="theme-label">WARM</span>
+    </button>
+    <a href="#contact" class="hud-btn" style="display:none;" id="nav-hire">Hire Me</a>
+    <script>document.getElementById('nav-hire').style.display='inline-block';</script>
+  </div>
+
+  <div class="nav-hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile nav -->
+<nav class="nav-mobile" id="mobile-nav">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<section id="home" class="hud-grid">
+  <div class="hero-inner">
+
+    <!-- Left -->
+    <div class="hero-left fade-in">
+      <div class="hero-status">
+        <div class="status-dot"></div>
+        <span class="section-label">System Online — BNM Institute of Technology, Bengaluru</span>
+      </div>
+
+      <div>
+        <p class="section-label" style="margin-bottom:8px;">// Initiating Profile</p>
+        <div class="hero-name">
+          <span class="first">RISHI</span>
+          <span class="last glow">SHASHIKANTH</span>
+        </div>
+      </div>
+
+      <div class="hero-role">
+        <span class="role-arrow">›</span>
+        <span id="typewriter" class="glow-sm"></span>
+        <span class="cursor">|</span>
+      </div>
+
+      <p class="hero-bio">
+        Final-year AI &amp; ML Engineering student at BNMIT with a CGPA of 8.97.
+        Co-founder of STProLink. Building AI-powered applications, automation workflows,
+        and practical tech solutions that create real-world impact.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-card hud-card">
+          <div class="stat-val glow-sm">8.97</div>
+          <div class="stat-label">CGPA / 10</div>
+        </div>
+        <div class="stat-card hud-card">
+          <div class="stat-val glow-sm">6+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-card hud-card">
+          <div class="stat-val glow-sm">3+</div>
+          <div class="stat-label">Hackathons</div>
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#projects" class="hud-btn">View Projects</a>
+        <a href="#contact"  class="hud-btn">Contact Me</a>
+      </div>
+
+      <div class="hero-tags">
+        <span class="hero-tags-label">// Core Systems</span>
+        <span class="hud-tag">Python</span>
+        <span class="hud-tag">TensorFlow</span>
+        <span class="hud-tag">LLMs</span>
+        <span class="hud-tag">FastAPI</span>
+        <span class="hud-tag">n8n</span>
+        <span class="hud-tag">RAG</span>
+        <span class="hud-tag">IoT</span>
+      </div>
+    </div>
+
+    <!-- Right — JARVIS rings -->
+    <div class="hero-right fade-in">
+      <div class="rings-wrap">
+        <!-- Rings -->
+        <div class="ring ring-outer"></div>
+        <div class="ring ring-1"><div class="ring-1-dot"></div></div>
+        <div class="ring ring-2"><div class="ring-2-dot"></div></div>
+        <div class="ring ring-3"></div>
+        <div class="ring ring-inner"></div>
+        <div class="ring ring-radar"><div class="ring-radar-beam"></div></div>
+        <!-- Center reactor -->
+        <div class="ring-center"><div class="ring-core"></div></div>
+        <!-- Corner brackets -->
+        <div class="rings-corner tl"></div>
+        <div class="rings-corner tr"></div>
+        <div class="rings-corner bl"></div>
+        <div class="rings-corner br"></div>
+        <!-- Labels -->
+        <div class="ring-label-tl">SYS.ONLINE</div>
+        <div class="ring-label-br">AI.CORE.v1</div>
+        <!-- Floating chips -->
+        <div class="chip hud-card chip-available">
+          <div class="chip-label">Status</div>
+          <div class="chip-val">AVAILABLE</div>
+        </div>
+        <div class="chip hud-card chip-location">
+          <div class="chip-label">Location</div>
+          <div class="chip-val glow-green">BENGALURU, IN</div>
+        </div>
+        <div class="chip hud-card chip-focus">
+          <div class="chip-label">Focus</div>
+          <div class="chip-val">AI · ML · WEB</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="about-inner">
+
+    <div class="about-text fade-in">
+      <div class="section-header">
+        <div class="line-left"></div>
+        <span class="section-label">// Profile.exe</span>
+        <div class="line-right"></div>
+        <span class="sec-num">SECTION_02</span>
+      </div>
+
+      <h2>About <span>Me</span></h2>
+
+      <p>
+        I'm <span>Rishi Shashikanth</span>, a final-year B.E. student in Artificial Intelligence &amp;
+        Machine Learning at <span>BNM Institute of Technology, Bengaluru</span> — maintaining a CGPA
+        of <span>8.97/10</span>. I build AI-powered applications, automation workflows, and practical
+        technology solutions that create real-world impact.
+      </p>
+      <p>
+        I'm the co-founder of <span class="green">STProLink</span> — a creative services &amp; technology
+        startup delivering video editing, graphic design, social media content, and digital branding.
+        Currently developing an <span>AI-powered social media management platform</span> that automates
+        content research, generation, planning, and campaign workflows.
+      </p>
+      <p>
+        I completed a Developer Internship at <span>Equinoxis Pvt. Ltd.</span> building a Text-to-3D Model
+        Generation system using TripoSR and ShapeNet. My work spans Generative AI, LLMs, IoT systems,
+        Computer Vision, and full-stack automation.
+      </p>
+      <a href="mailto:rishi.s1575@gmail.com" class="hud-btn" style="margin-top:20px;">Download Resume</a>
+    </div>
+
+    <div class="fade-in">
+      <div class="about-info-rows">
+        <div class="info-row hud-card"><span class="lbl">Institute</span><span class="val">BNM Institute of Technology</span></div>
+        <div class="info-row hud-card"><span class="lbl">Degree</span><span class="val">B.E. — AI &amp; Machine Learning</span></div>
+        <div class="info-row hud-card"><span class="lbl">CGPA</span><span class="val">8.97 / 10</span></div>
+        <div class="info-row hud-card"><span class="lbl">Batch</span><span class="val">2024 – 2027</span></div>
+        <div class="info-row hud-card"><span class="lbl">Venture</span><span class="val">Co-Founder @ STProLink</span></div>
+        <div class="info-row hud-card"><span class="lbl">Internship</span><span class="val">Developer Intern @ Equinoxis</span></div>
+        <div class="info-row hud-card"><span class="lbl">Location</span><span class="val">Bengaluru, Karnataka</span></div>
+      </div>
+
+      <div class="about-interests hud-card">
+        <span class="section-label">// Core Interests</span>
+        <div class="tags">
+          <span class="hud-tag">Generative AI</span>
+          <span class="hud-tag">LLM Agents</span>
+          <span class="hud-tag">Automation</span>
+          <span class="hud-tag">IoT</span>
+          <span class="hud-tag">Computer Vision</span>
+          <span class="hud-tag">Full-Stack</span>
+          <span class="hud-tag">Data Science</span>
+          <span class="hud-tag">Entrepreneurship</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills" class="hud-grid">
+  <div class="skills-inner">
+
+    <div class="section-header fade-in">
+      <div class="line-left"></div>
+      <span class="section-label">// Capability Matrix</span>
+      <div class="line-right"></div>
+      <span class="sec-num">SECTION_03</span>
+    </div>
+
+    <h2 class="fade-in">Technical <span class="glow">Skills</span></h2>
+
+    <!-- Category: Languages -->
+    <div class="sk-category fade-in">
+      <div class="sk-cat-label"><span class="sk-cat-dot sk-dot-primary"></span>Languages</div>
+      <div class="sk-icon-grid">
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/><span>Python</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/><span>Java</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/><span>JavaScript</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/><span>HTML5</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/><span>CSS3</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"/><span>SQL</span></div>
+      </div>
+    </div>
+
+    <!-- Category: AI / ML -->
+    <div class="sk-category fade-in">
+      <div class="sk-cat-label"><span class="sk-cat-dot sk-dot-accent"></span>AI / ML &amp; Data Science</div>
+      <div class="sk-icon-grid">
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"/><span>PyTorch</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/><span>TensorFlow</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras"/><span>Keras</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn"/><span>Scikit-Learn</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy"/><span>NumPy</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"/><span>Pandas</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV"/><span>OpenCV</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:linear-gradient(135deg,#10a37f,#1a7f64);">GPT</div><span>OpenAI API</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:linear-gradient(135deg,#cc785c,#b86040);">🦜</div><span>LangChain</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:linear-gradient(135deg,#e8532a,#c94520);font-size:.65rem;letter-spacing:.05em;">RAG</div><span>RAG</span></div>
+      </div>
+    </div>
+
+    <!-- Category: Web & Tools -->
+    <div class="sk-category fade-in">
+      <div class="sk-cat-label"><span class="sk-cat-dot sk-dot-primary"></span>Web &amp; DevTools</div>
+      <div class="sk-icon-grid">
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/><span>ReactJS</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:#000;color:#fff;font-weight:900;font-size:.8rem;letter-spacing:-.02em;">N</div><span>Next.js</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI"/><span>FastAPI</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/><span>Git</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/><span>Docker</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/><span>MySQL</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/><span>MongoDB</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"/><span>Figma</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi"/><span>Raspberry Pi</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:linear-gradient(135deg,#ef4f2c,#c93b1e);font-size:.65rem;">n8n</div><span>n8n</span></div>
+        <div class="sk-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"/><span>Postman</span></div>
+        <div class="sk-card sk-card-text"><div class="sk-text-icon" style="background:#181717;color:#fff;font-size:.7rem;font-weight:900;">GH</div><span>GitHub</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects">
+  <div class="projects-inner">
+
+    <div class="section-header fade-in">
+      <div class="line-left"></div>
+      <span class="section-label">// Project Database</span>
+      <div class="line-right"></div>
+      <span class="sec-num">SECTION_04</span>
+    </div>
+
+    <h2 class="fade-in">Featured <span class="glow">Projects</span></h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-p">GenAI · Automation</div><div class="project-id">ID: 01</div></div>
+          <div class="project-status ps-primary">Ongoing</div>
+        </div>
+        <div class="project-title">AI-Powered Social Media Management Platform</div>
+        <div class="project-desc">Developing an AI-powered platform to automate social media content generation, planning, and management for businesses. Integrates AI models and automation workflows (n8n, Make.com) to streamline content creation and campaign execution.</div>
+        <div class="project-tags">
+          <span class="hud-tag">LLMs</span><span class="hud-tag">n8n</span><span class="hud-tag">Make.com</span><span class="hud-tag">FastAPI</span><span class="hud-tag">Supabase</span>
+        </div>
+        <div class="project-underline pu-primary"></div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-a">Generative AI · 3D</div><div class="project-id">ID: 02</div></div>
+          <div class="project-status ps-accent">Internship</div>
+        </div>
+        <div class="project-title">Text-to-3D Model Designer</div>
+        <div class="project-desc">Built a Text-to-3D generation system using TripoSR and ShapeNet to create STL/OBJ models from text descriptions. Optimised prompt inputs to improve 3D model quality, generation accuracy and output usability across different object categories.</div>
+        <div class="project-tags">
+          <span class="hud-tag">TripoSR</span><span class="hud-tag">ShapeNet</span><span class="hud-tag">Python</span><span class="hud-tag">Prompt Eng.</span>
+        </div>
+        <div class="project-underline pu-accent"></div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-p">IoT · Biomedical</div><div class="project-id">ID: 03</div></div>
+          <div class="project-status ps-primary">Completed</div>
+        </div>
+        <div class="project-title">Smart Biomedical Organ Transport System</div>
+        <div class="project-desc">Designed a smart cold-chain transport system using ESP32, Peltier cooling, GSM alerts, and IoT monitoring for safe transportation of organs, blood products, and vaccines. Integrated temperature, vibration, and motion sensing with real-time alerts.</div>
+        <div class="project-tags">
+          <span class="hud-tag">ESP32</span><span class="hud-tag">IoT</span><span class="hud-tag">GSM</span><span class="hud-tag">Raspberry Pi</span>
+        </div>
+        <div class="project-underline pu-primary"></div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-a">Computer Vision</div><div class="project-id">ID: 04</div></div>
+          <div class="project-status ps-accent">Completed</div>
+        </div>
+        <div class="project-title">Fake Currency Detection System</div>
+        <div class="project-desc">Developed an image-processing solution using ROI-based feature extraction to identify counterfeit currency notes. Applied computer vision techniques to analyse security features and improve detection accuracy.</div>
+        <div class="project-tags">
+          <span class="hud-tag">OpenCV</span><span class="hud-tag">Python</span><span class="hud-tag">Image Processing</span><span class="hud-tag">ROI</span>
+        </div>
+        <div class="project-underline pu-accent"></div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-p">Agriculture AI</div><div class="project-id">ID: 05</div></div>
+          <div class="project-status ps-primary">Completed</div>
+        </div>
+        <div class="project-title">Crop Price Prediction Bot</div>
+        <div class="project-desc">ML-powered bot predicting crop prices using regression models and real-time data pipelines. Provides personalised recommendations for farmers to bridge the gap between data science and agriculture.</div>
+        <div class="project-tags">
+          <span class="hud-tag">Python</span><span class="hud-tag">Scikit-learn</span><span class="hud-tag">ML</span><span class="hud-tag">Pandas</span>
+        </div>
+        <div class="project-underline pu-primary"></div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card hud-card fade-in">
+        <div class="project-top">
+          <div><div class="project-cat clr-a">Healthcare · Python</div><div class="project-id">ID: 06</div></div>
+          <div class="project-status ps-accent">Completed</div>
+        </div>
+        <div class="project-title">OPD &amp; Hospital Bed Management System</div>
+        <div class="project-desc">Built a Python-based hospital management system for patient admission and bed allocation tracking. Implemented SMS notifications for real-time patient updates and efficient resource management.</div>
+        <div class="project-tags">
+          <span class="hud-tag">Python</span><span class="hud-tag">MySQL</span><span class="hud-tag">SMS API</span><span class="hud-tag">FastAPI</span>
+        </div>
+        <div class="project-underline pu-accent"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== EXPERIENCE ===================== -->
+<section id="experience" class="hud-grid">
+  <div class="experience-inner">
+
+    <div class="section-header fade-in">
+      <div class="line-left"></div>
+      <span class="section-label">// Mission Log</span>
+      <div class="line-right"></div>
+      <span class="sec-num">SECTION_05</span>
+    </div>
+
+    <h2 class="fade-in">Work <span class="glow">Experience</span></h2>
+
+    <div class="work-exp-list">
+
+      <!-- AccoFAI LLP / STProLink -->
+      <div class="work-card hud-card fade-in">
+        <div class="work-card-left">
+          <div class="work-logo-box"><span>A</span></div>
+          <div class="work-line"></div>
+        </div>
+        <div class="work-card-right">
+          <div class="work-header">
+            <div>
+              <div class="work-role">Director &amp; Co-Founder</div>
+              <div class="work-company">AccoFAI LLP <span class="work-aka">· operating as STProLink</span></div>
+            </div>
+            <div class="work-period">Mar 2021 – Present</div>
+          </div>
+          <p class="work-desc">
+            Co-founded AccoFAI LLP — a registered LLP in India — operating its creative &amp; tech brand <strong>STProLink</strong>.
+            Delivering video editing, graphic design, social media content, and digital branding services to clients.
+            Currently building an <strong>AI-powered social media management platform</strong> that automates content research,
+            generation, scheduling, and campaign workflows using LLMs, n8n, and Make.com.
+          </p>
+          <div class="work-tags">
+            <span class="hud-tag">LLM Agents</span>
+            <span class="hud-tag">n8n</span>
+            <span class="hud-tag">Make.com</span>
+            <span class="hud-tag">Entrepreneurship</span>
+            <span class="hud-tag">GenAI</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Equinoxis -->
+      <div class="work-card hud-card fade-in">
+        <div class="work-card-left">
+          <div class="work-logo-box" style="border-color:var(--green);"><span style="color:var(--green);">E</span></div>
+        </div>
+        <div class="work-card-right">
+          <div class="work-header">
+            <div>
+              <div class="work-role">Developer Intern</div>
+              <div class="work-company">Equinoxis Pvt. Ltd.</div>
+            </div>
+            <div class="work-period">Jul – Aug 2025</div>
+          </div>
+          <p class="work-desc">
+            Built a <strong>Text-to-3D Model Generation system</strong> using TripoSR and ShapeNet datasets.
+            Optimised prompt inputs to improve 3D generation accuracy and evaluated STL/OBJ model quality
+            across different object categories.
+          </p>
+          <div class="work-tags">
+            <span class="hud-tag">TripoSR</span>
+            <span class="hud-tag">ShapeNet</span>
+            <span class="hud-tag">Python</span>
+            <span class="hud-tag">Prompt Engineering</span>
+            <span class="hud-tag">3D Modelling</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== EDUCATION ===================== -->
+<section id="education">
+  <div class="education-inner">
+
+    <div class="section-header fade-in">
+      <div class="line-left"></div>
+      <span class="section-label">// Academic Log</span>
+      <div class="line-right"></div>
+      <span class="sec-num">SECTION_06</span>
+    </div>
+
+    <h2 class="fade-in">My <span class="glow">Education</span></h2>
+
+    <!-- Horizontal Timeline -->
+    <div class="edu-timeline fade-in">
+
+      <!-- Track line -->
+      <div class="edu-track">
+        <div class="edu-track-fill"></div>
+      </div>
+
+      <!-- Node 1: PUC -->
+      <div class="edu-node">
+        <div class="edu-dot"></div>
+        <div class="edu-card hud-card">
+          <div class="edu-year">2021 – 2023</div>
+          <div class="edu-badge" style="border-color:var(--green);color:var(--green);">PRE-UNIVERSITY</div>
+          <div class="edu-degree">PCMC — Science Stream</div>
+          <div class="edu-inst">Sri Sri Ravishankar Vidya Mandir, Bengaluru</div>
+          <div class="edu-detail">Physics · Chemistry · Maths · CS · <strong>78.4%</strong></div>
+        </div>
+      </div>
+
+      <!-- Node 2: BE -->
+      <div class="edu-node edu-node-active">
+        <div class="edu-dot edu-dot-active"></div>
+        <div class="edu-card hud-card edu-card-active">
+          <div class="edu-year">2023 – 2027</div>
+          <div class="edu-badge edu-badge-active">CURRENT</div>
+          <div class="edu-degree">B.E. — Artificial Intelligence &amp; Machine Learning</div>
+          <div class="edu-inst">BNM Institute of Technology, Bengaluru</div>
+          <div class="edu-detail">CGPA: <strong class="glow-sm">8.97 / 10</strong></div>
+          <div class="edu-tags">
+            <span class="hud-tag">AI / ML</span>
+            <span class="hud-tag">Deep Learning</span>
+            <span class="hud-tag">NLP</span>
+            <span class="hud-tag">DSA</span>
+            <span class="hud-tag">Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
+  <div class="contact-inner">
+
+    <div class="section-header fade-in">
+      <div class="line-left"></div>
+      <span class="section-label">// Open Channel</span>
+      <div class="line-right"></div>
+      <span class="sec-num">SECTION_07</span>
+    </div>
+
+    <h2 class="fade-in">Get in <span class="glow">touch</span></h2>
+    <p class="contact-sub fade-in">Want to talk about AI, startups, or just interesting problems? I'm around.</p>
+
+    <!-- Contact cards grid (Revanth-style) -->
+    <div class="contact-cards-grid fade-in">
+
+      <div class="contact-card hud-card" id="email-row" style="cursor:pointer;" title="Click to copy email">
+        <div class="contact-card-icon">✉</div>
+        <div class="contact-card-body">
+          <div class="contact-card-label">Email</div>
+          <div class="contact-card-val">rishi.s1575@gmail.com</div>
+        </div>
+        <span class="contact-card-arrow" id="copy-hint">↗</span>
+      </div>
+
+      <a href="https://github.com/RISHI-1575" target="_blank" rel="noopener" class="contact-card hud-card">
+        <div class="contact-card-icon">⌥</div>
+        <div class="contact-card-body">
+          <div class="contact-card-label">GitHub</div>
+          <div class="contact-card-val">github.com/RISHI-1575</div>
+        </div>
+        <span class="contact-card-arrow">↗</span>
+      </a>
+
+      <a href="https://linkedin.com/in/rishi-shashikanth" target="_blank" rel="noopener" class="contact-card hud-card">
+        <div class="contact-card-icon">in</div>
+        <div class="contact-card-body">
+          <div class="contact-card-label">LinkedIn</div>
+          <div class="contact-card-val">linkedin.com/in/rishi-shashikanth</div>
+        </div>
+        <span class="contact-card-arrow">↗</span>
+      </a>
+
+      <div class="contact-card hud-card" style="cursor:default;">
+        <div class="contact-card-icon">◉</div>
+        <div class="contact-card-body">
+          <div class="contact-card-label">Location</div>
+          <div class="contact-card-val">Bengaluru, India</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="avail-banner hud-card fade-in">
+      <div class="avail-dot"></div>
+      <div>
+        <div class="avail-title">OPEN TO OPPORTUNITIES</div>
+        <div class="avail-sub">Internships · Full-time · Freelance · Collaboration</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <span class="left">© 2026 RISHI SHASHIKANTH — ALL SYSTEMS ONLINE</span>
+  <div class="right">
+    <div class="foot-dot"></div>
+    BUILT WITH HTML · CSS · JS — DEPLOYED ON VERCEL
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
